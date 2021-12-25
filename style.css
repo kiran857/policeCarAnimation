@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#roadimg{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+
+}
+#car{
+position: absolute;
+bottom: 30px;
+left: 0;
+height: 100px;
+width: 200px;
+}
+button{
+    background-color: green;
+    color: white;
+    position: relative;
+    margin:20%;
+    border-radius:30%;
+    border: 1px solid black;
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    width: 200px;     
+}
